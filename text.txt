@@ -1,0 +1,3 @@
+                    bot.sendMessage(msg.chat.id, "Komek_halykkz компаниясына қош келдіңіз, ссылкаға басып. телефон нөмеріңіз арқылы тіркеліңіз! \n\nТөмендегі инструкция бойынша жасаңыз! \n\n Добро пожаловать в Komek_halykkz, пройдите по ссылке, сделайте регистрацию по номер телефона! \n\n Дальше следуйте инструкции!")
+                    bot.sendMessage(msg.chat.id, "https://cabinet.ffin.life/editProfile")
+                    bot.sendDocument(msg.chat.id, "instructions.pdf")
