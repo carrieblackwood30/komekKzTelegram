@@ -1,6 +1,6 @@
 const TelegramBot = require('node-telegram-bot-api');
 const API_KEY_BOT = require("./src/botKey")
-const startRu = require("./russian")
+const langChoose = require("./langChoose")
 const commands = require("./src/commands")
 const getChatMember = require("./getMember")
 
@@ -36,10 +36,11 @@ bot.on("callback_query", async (ctx) => {
         switch(ctx.data){
 
             case "ru":
-            startRu(user, bot)
+                langChoose(user, bot, "ru")
             break
 
             case "kz":
+                langChoose(user, bot, "kz")
                 break
 
             case "MFO":
