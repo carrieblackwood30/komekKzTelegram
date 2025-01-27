@@ -14,11 +14,11 @@ async function getChatMember(user, bot){
                 reply_markup: {
 
                     inline_keyboard: [
-                        [{text: "Получить инструкцию по отмене страховки", callback_data: "getInstructions"}],         
-                        [{text: "Предоставление графика в МФО", callback_data: 'MFO'}],
-                        [{text: "Отмена исполнительной надписи и снятие ареста" , callback_data: 'arrest'}],
-                        [{text: "Внесудебное банкротство физического лица", callback_data: 'bankruptcy'}],
-                        [{text: "Задолженности банков второго уровня", callback_data: 'debt'}],
+                        [{text: "Сақтандыруды жою туралы нұсқаулық алыңыз", callback_data: "getInstructions"}],         
+                        [{text: "МФО ұйымынан график алу", callback_data: 'MFOKZ'}],
+                        [{text: "Атқарушылық жазбаны жою және бұғатты шешу" , callback_data: 'arrestKZ'}],
+                        [{text: "Соттан тыс жеке тұлғаның банкроттығы", callback_data: 'bankruptcyKZ'}],
+                        [{text: "Екінші деңгейлі банктердегі қарыздармен жұмыс", callback_data: 'debtKZ'}],
         
                     ]
         
@@ -26,7 +26,7 @@ async function getChatMember(user, bot){
             })
         }
         else{
-            bot.sendMessage(user, `Подпишитесь пожалуйста на канал https://t.me/+PLmjJxvAR0gxNzFi`, {
+            bot.sendMessage(user, `Арнаға жазылыңыз https://t.me/+PLmjJxvAR0gxNzFi`, {
                 reply_markup: {
                     keyboard: [
                         [{text: 'готово!'}]
