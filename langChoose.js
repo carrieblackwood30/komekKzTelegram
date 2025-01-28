@@ -9,7 +9,8 @@ async function startRu(user, bot, lang){
         
         })
     }
-    else if(lang === "kz"){
+    
+    if(lang === "kz"){
         await bot.sendMessage(user, `Арнаға жазылыңыз https://t.me/+PLmjJxvAR0gxNzFi`, {
 
             reply_markup: {
