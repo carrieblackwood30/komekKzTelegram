@@ -29,7 +29,7 @@ async function getChatMember(user, bot){
             bot.sendMessage(user, `Арнаға жазылыңыз https://t.me/+PLmjJxvAR0gxNzFi`, {
                 reply_markup: {
                     keyboard: [
-                        [{text: 'готово!'}]
+                        [{text: '✅ дайын!'}]
                     ]
                 }
             });

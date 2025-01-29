@@ -4,7 +4,7 @@ async function startRu(user, bot, lang){
         await bot.sendMessage(user, `Подпишитесь пожалуйста на канал https://t.me/+PLmjJxvAR0gxNzFi`, {
 
             reply_markup: {
-                inline_keyboard: [[{text: "готово!", callback_data: "checkSub"}]]
+                inline_keyboard: [[{text: "✅ готово!", callback_data: "checkSub"}]]
             }
         
         })
@@ -14,7 +14,7 @@ async function startRu(user, bot, lang){
         await bot.sendMessage(user, `Арнаға жазылыңыз https://t.me/+PLmjJxvAR0gxNzFi`, {
 
             reply_markup: {
-                inline_keyboard: [[{text: "дайын!", callback_data: "checkSubKz"}]]
+                inline_keyboard: [[{text: "✅ дайын!", callback_data: "checkSubKz"}]]
             }
         
         })
